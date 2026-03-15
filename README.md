@@ -1,25 +1,3 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 # Hermes ViroAgent: Computational Virology Research Assistant
 
 ![Conservation Analysis](results/conservation_analysis.png)
