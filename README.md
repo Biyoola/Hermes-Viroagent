@@ -4,7 +4,7 @@
 
 ## Overview
 
-ViroAgent is an autonomous computational virology research assistant designed for viral genome analysis, mutation impact prediction, and therapeutic discovery. This repository contains the complete implementation of ViroAgent, including:
+ViroAgent is an autonomous computational virology research assistant designed with NousResearch Hermes Agent for viral genome analysis, mutation impact prediction, and therapeutic discovery. This repository contains the complete implementation of ViroAgent, including:
 
 - **Persona definition**: Core identity, knowledge domains, and safety protocols
 - **Bioinformatics workflows**: Complete pipelines for phylogenetic analysis, protein structure assessment, and drug resistance prediction
