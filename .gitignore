@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.log
+*.ckp.gz
+*.mldist
+*.bionj
+*.contree
+*.splits.nex
+*.iqtree
+*.model.gz
+
+# Large data files
+*.fasta
+*.fna
+*.fa
+*.gb
+*.gbk
+*.aln
+*.phy
+*.nex
+*.xml
+*.pdb
+*.cif
+
+# Except for example files in data/ and results/
+!data/example_sequences.fasta
+!results/all_sequences.fasta
+!results/full_genome_alignment.aln
+
+# Jupyter
+.ipynb_checkpoints
+
+# Output directories (optional to track)
+# results/  # Uncomment if you don't want to track results
+# data/     # Uncomment if you don't want to track data
+
+# Hermes Agent
+.hermes/
+*.hermes

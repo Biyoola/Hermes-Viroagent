@@ -1,0 +1,15 @@
+SIMPLIFIED TREE REPRESENTATION
+==================================================
+
+Tree structure (clades):
+------------------------------
+Nigerian sequences: 50
+Alpha variants: 8
+Beta variants: 15
+Gamma variants: 10
+Delta variants: 7
+Omicron variants: 9
+
+Tree statistics:
+Total tips: 100
+Total branches: 198
