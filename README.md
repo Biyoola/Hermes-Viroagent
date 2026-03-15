@@ -10,6 +10,12 @@ bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 # Hermes ViroAgent: Computational Virology Research Assistant
 
 ![Conservation Analysis](results/conservation_analysis.png)
@@ -44,7 +50,7 @@ ViroAgent is a bioinformatics specialist with expertise in:
 ## Repository Structure
 
 ```
-viroagent-analysis/
+Hermes-Viroagent/
 ├── README.md                   # This file
 ├── push-to-github.sh           # GitHub deployment script
 ├── LICENSE                     # MIT License
@@ -131,8 +137,8 @@ git push -u origin main
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[your-username]/viroagent-analysis.git
-   cd viroagent-analysis
+   git clone https://github.com/[your-username]/Hermes-Viroagent.git
+   cd Hermes-Viroagent
    ```
 
 2. Create and activate the conda environment:
