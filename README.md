@@ -1,6 +1,6 @@
 # Hermes ViroAgent: Computational Virology Research Assistant
 
-![Conservation Analysis](results/conservation_analysis.png)
+
 
 ## Overview
 
@@ -200,6 +200,8 @@ The environment includes:
 - Classification (synonymous/missense/nonsense/frameshift)
 - Frequency analysis in population
 - Functional impact prediction
+
+  ![Conservation Analysis](results/conservation_analysis.png)
 
 ### 4. Drug Resistance Prediction
 - Mutation mapping to drug binding sites
