@@ -18,6 +18,8 @@ bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 # Hermes ViroAgent: Computational Virology Research Assistant
 
 ![Conservation Analysis](results/conservation_analysis.png)
@@ -139,7 +141,7 @@ git push -u origin main
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[your-username]/Hermes-Viroagent.git
+   git clone https://github.com/Biyoola/Hermes-Viroagent.git
    cd Hermes-Viroagent
    ```
 
@@ -298,7 +300,7 @@ If you use ViroAgent in your research, please cite:
 ```
 Hermes ViroAgent: Computational Virology Research Assistant.
 Bioinformatics workflow for viral genome analysis and therapeutic discovery.
-https://github.com/[your-username]/Hermes-Viroagent
+https://github.com/Biyoola/Hermes-Viroagent
 ```
 
 ## License
