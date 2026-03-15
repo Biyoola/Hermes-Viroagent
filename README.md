@@ -1,4 +1,16 @@
-# ViroAgent Analysis: Computational Virology Research Assistant
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+# Hermes ViroAgent: Computational Virology Research Assistant
 
 ![Conservation Analysis](results/conservation_analysis.png)
 
@@ -34,6 +46,10 @@ ViroAgent is a bioinformatics specialist with expertise in:
 ```
 viroagent-analysis/
 ├── README.md                   # This file
+├── push-to-github.sh           # GitHub deployment script
+├── LICENSE                     # MIT License
+├── .gitignore                  # Git ignore patterns
+├── environment.yml             # Conda environment specification
 ├── docs/                       # Documentation
 │   ├── ViroAgent-persona.txt   # Complete persona definition
 │   ├── BioTools.md             # Bioinformatics tool requirements
@@ -56,13 +72,53 @@ viroagent-analysis/
 │   └── all_sequences.fasta     # Example sequence dataset
 ├── data/                       # Example data
 │   └── example_sequences.fasta # Subset of sequences
-├── skills/                     # Hermes Agent skill
-│   └── viroagent-analysis/
-│       ├── SKILL.md            # Complete skill documentation
-│       └── references/
-│           └── sars-cov2-workflow.md # Workflow reference
-└── environment.yml             # Conda environment specification
+└── skills/                     # Hermes Agent skill
+    └── viroagent-analysis/
+        ├── SKILL.md            # Complete skill documentation
+        └── references/
+            └── sars-cov2-workflow.md # Workflow reference
 ```
+
+## Deployment to GitHub
+
+This repository is ready to be pushed to GitHub. Follow these steps:
+
+### Option 1: Using the automated script (recommended)
+```bash
+# Make the script executable
+chmod +x push-to-github.sh
+
+# Run with your GitHub username
+./push-to-github.sh your-github-username Hermes-Viroagent
+```
+
+The script will guide you through:
+1. Creating the repository on GitHub (if not already created)
+2. Choosing authentication method (SSH or HTTPS)
+3. Configuring git remote
+4. Pushing all files to GitHub
+
+### Option 2: Manual deployment
+```bash
+# Create repository on GitHub (visit https://github.com/new)
+# Name: Hermes-Viroagent, Description: Computational virology research assistant
+
+# Add remote (choose one):
+git remote add origin https://github.com/your-username/Hermes-Viroagent.git  # HTTPS
+# OR
+git remote add origin git@github.com:your-username/Hermes-Viroagent.git      # SSH
+
+# Rename branch to main (if needed)
+git branch -M main
+
+# Push to GitHub
+git push -u origin main
+```
+
+### Authentication Notes:
+- **SSH**: Requires SSH keys configured on GitHub (check `~/.ssh/id_ed25519.pub` or `~/.ssh/id_rsa.pub`)
+- **HTTPS**: Requires personal access token with 'repo' scope (generate at https://github.com/settings/tokens)
+- First-time push may require entering credentials
 
 ## Installation
 

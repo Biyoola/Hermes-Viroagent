@@ -1,3 +1,7 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 #!/bin/bash
 # Script to push ViroAgent Analysis repository to GitHub
 # Usage: ./push-to-github.sh [github-username] [repository-name]
@@ -6,10 +10,10 @@ set -e
 
 # Default values
 GITHUB_USER="${1:-your-username}"
-REPO_NAME="${2:-viroagent-analysis}"
+REPO_NAME="${2:-Hermes-Viroagent}"
 
 echo "============================================="
-echo "ViroAgent Analysis - GitHub Repository Setup"
+echo "Hermes ViroAgent - GitHub Repository Setup"
 echo "============================================="
 echo ""
 
